@@ -1,0 +1,14 @@
+require 'cli'
+
+settings = CLI.new do
+  option :add_account,  :description => 'add email account', :default => 'Gmail'
+  option :import,	:description => 'import from backup file'
+  option :sync, 	:description => 'Sync email account'
+  option :eqlc, 	:description => 'eql console'
+  
+  argument :url,	:description => 'URL to GET or POST to if arguments are given'
+  arguments :post_arguments, :required => false
+
+end.parse! do |settings|
+    fail "invalid URL '#{settings.url}', URL has to start with '/'" unless settings.url =~ /^\//
+end
