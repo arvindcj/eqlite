@@ -1,8 +1,8 @@
 require 'date'
 
 Gem::Specification.new do |s|
-  s.name        = 'EQLite'
-  s.version     = '0.0.1'
+  s.name        = 'eqlite'
+  s.version     = '0.0.2'
   s.date        =  DateTime.now.strftime "%Y-%m-%d"
   s.summary     = "SQL for Email"
   s.description = "SQLite backed email storage and query email with SQL"
