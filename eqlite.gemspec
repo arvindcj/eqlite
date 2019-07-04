@@ -8,6 +8,8 @@ Gem::Specification.new do |s|
   s.description = "SQLite backed email storage and email with SQL"
   s.authors     = ["Arvind CJ"]
   s.email       = 'code@arvindcj.com'
+  s.bindir      = 'bin'
+  s.executables << 'eqlite'
   s.files       = ["lib/eql.rb"]
   s.homepage    =
     'https://github.com/arvindcj/eqlite'
