@@ -1,4 +1,7 @@
 *.gem
+*~
+*#
+**.#
 *.rbc
 /.config
 /coverage/
