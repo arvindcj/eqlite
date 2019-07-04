@@ -2,10 +2,10 @@ require 'date'
 
 Gem::Specification.new do |s|
   s.name        = 'eqlite'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        =  DateTime.now.strftime "%Y-%m-%d"
   s.summary     = "SQL for Email"
-  s.description = "SQLite backed email storage and email with SQL"
+  s.description = "under development - please do not use yet!"
   s.authors     = ["Arvind CJ"]
   s.email       = 'code@arvindcj.com'
   s.bindir      = 'bin'
